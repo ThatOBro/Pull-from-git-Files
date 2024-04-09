@@ -12,7 +12,7 @@
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: /*'figtree'*/'gg sans';
+	--font: /*'figtree'*//*'gg sans'*/;
 
 	/* top left corner text */
 	--corner-text: /*'Midnight'*/'Discord';
