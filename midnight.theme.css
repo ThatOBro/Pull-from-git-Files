@@ -18,10 +18,10 @@
 	--corner-text: /*'Midnight'*/'Discord';
 
 	/* color of status indicators and window controls */
-	--online-indicator: #23a55a; /* change to #23a55a for default green */
-	--dnd-indicator: #f13f43; /* change to #f13f43 for default red */
-	--idle-indicator: #f0b232; /* change to #f0b232 for default yellow */
-	--streaming-indicator: #593695; /* change to #593695 for default purple */
+	--online-indicator: hsl(145, 65%, 39.2%); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(359, 86.4%, 59.6%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(40, 86.4%, 56.9%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(262, 46.8%, 39.8%); /* change to #593695 for default purple */
 
 	/* accent colors */
 	--accent-1: hsl(220, 80%, 76.5%); /* links */ 
