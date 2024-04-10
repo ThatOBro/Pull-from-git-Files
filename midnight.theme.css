@@ -2,12 +2,12 @@
  * @name Midnight 'Modified'
  * @description A Dark, rounded Discord Theme.
  * @author ThatOBro
- * @website https://github.com/refact0r/midnight-discord
+ * @website https://github.com/ThatOBro/Pull-from-git-Files.git
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
-@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://thatobro.github.io/Pull-from-git-Files/midnight.theme.css');
 
 /* customize things here */
 :root {
@@ -34,19 +34,19 @@
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
+	--text-1: white; /* other normally white text */
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
 	--text-3: hsl(220, 15%, 60%); /* normal text */
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
 	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
+	--bg-1: hsl(145, 65%, 39.2%); /* dark buttons when clicked */
 	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
 	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
 	--bg-4: hsl(220, 15%, 10%); /* main background color */
 	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(221, 20%, 40%, 0); /* channels and buttons when clicked or selected */
+	--active: hsla(230, 20%, 40%, 0.1); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
@@ -76,7 +76,7 @@
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
-	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--login-bg-filter: saturate(0.9) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
 	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
 	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
 }
