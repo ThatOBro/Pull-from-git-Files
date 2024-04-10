@@ -30,7 +30,7 @@
 	--accent-4: hsl(235, 77.4%, 63.5%); /* accent buttons when hovered */
 	--accent-5: hsl(235, 77.4%, 63.5%); /* accent buttons when clicked */
 	--mention: hsla(40, 75.2%, 60.4%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+	--mention-hover: hsla(40, 75.2%, 60.4%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
