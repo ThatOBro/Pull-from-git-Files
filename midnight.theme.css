@@ -50,7 +50,7 @@
 	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
-	--spacing: 12px;
+	--spacing: 10px;
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
@@ -60,17 +60,17 @@
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
-	--roundness-xl: 22px; /* roundness of big panel outer corners */
+	--roundness-xl: 20px; /* roundness of big panel outer corners */
 	--roundness-l: 20px; /* popout panels */
 	--roundness-m: 16px; /* smaller panels, images, embeds */
-	--roundness-s: 12px; /* members, settings inputs */
-	--roundness-xs: 10px; /* channels, buttons */
+	--roundness-s: 10px; /* members, settings inputs */
+	--roundness-xs: 9px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
 
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
-	--discord-icon: /*none*/block; /* discord icon */
-	--moon-icon: /*block*/none; /* moon icon */
+	--discord-icon: block; /* discord icon */
+	--moon-icon: none; /* moon icon */
 	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
 	--moon-icon-size: auto;
 
