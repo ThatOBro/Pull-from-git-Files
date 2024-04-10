@@ -26,9 +26,9 @@
 	/* accent colors */
 	--accent-1: hsl(220, 80%, 76.5%); /* links */ 
 	--accent-2: hsl(40, 75.2%, 60.4%); /* general unread/mention elements */
-	--accent-3: hsl(235, 77.4%, 63.5%)rgb(255,0,0); /* accent buttons */
-	--accent-4: hsl(235, 77.4%, 63.5%)rgb(0,255,0); /* accent buttons when hovered */
-	--accent-5: hsl(235, 77.4%, 63.5%)rgb(0,0,255); /* accent buttons when clicked */
+	--accent-3: /*hsl(235, 77.4%, 63.5%)*/rgb(255,0,0); /* accent buttons */
+	--accent-4: /*hsl(235, 77.4%, 63.5%)*/rgb(0,255,0); /* accent buttons when hovered */
+	--accent-5: /*hsl(235, 77.4%, 63.5%)*/rgb(0,0,255); /* accent buttons when clicked */
 	--mention: hsla(40, 75.2%, 60.4%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(40, 75.2%, 60.4%, 0.05); /* mentions & mention messages when hovered */
 
