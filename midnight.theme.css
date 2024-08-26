@@ -9,19 +9,19 @@
 	--corner-text: 'Discord';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: #23a55a; /* change to #23a55a for default green */
+	--dnd-indicator: #f13f43; /* change to #f13f43 for default red */
+	--idle-indicator: #f0b232; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #593695; /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(235, 86%, 70%); /* links */
-	--accent-2: hsl(235, 86%, 65%); /* general unread/mention elements */
-	--accent-3: hsl(235, 86%, 60%); /* accent buttons */
-	--accent-4: hsl(235, 86%, 55%); /* accent buttons when hovered */
-	--accent-5: hsl(235, 86%, 50%); /* accent buttons when clicked */
-	--mention: hsla(40, 7%, 25%, 1); /* mentions & mention messages */
-	--mention-hover: hsla(36, 4%, 24%, 1); /* mentions & mention messages when hovered */
+	--accent-1: /*hsl(235, 86%, 70%)*/rgb(255, 0, 0); /* links */
+	--accent-2: /*hsl(235, 86%, 65%)*/rgb(0, 255, 0); /* general unread/mention elements */
+	--accent-3: /*hsl(235, 86%, 60%)*/rgb(0, 0, 255); /* accent buttons */
+	--accent-4: /*hsl(235, 86%, 55%)*/rgb(255, 255, 0); /* accent buttons when hovered */
+	--accent-5: /*hsl(235, 86%, 50%)*/rgb(255, 0, 255); /* accent buttons when clicked */
+	--mention: hsla(40, 7%, 25%, 0.5); /* mentions & mention messages */
+	--mention-hover: hsla(40, 7%, 25%, 0.25); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
