@@ -3,10 +3,10 @@
 
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	--font: 'gg sans';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'Discord';
 
 	/* color of status indicators and window controls */
 	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
@@ -15,13 +15,13 @@
 	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(235, 86%, 70%); /* links */
+	--accent-2: hsl(235, 86%, 65%); /* general unread/mention elements */
+	--accent-3: hsl(235, 86%, 60%); /* accent buttons */
+	--accent-4: hsl(235, 86%, 55%); /* accent buttons when hovered */
+	--accent-5: hsl(235, 86%, 50%); /* accent buttons when clicked */
+	--mention: hsla(40, 7%, 25%, 1); /* mentions & mention messages */
+	--mention-hover: hsla(36, 4%, 24%, 1); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
